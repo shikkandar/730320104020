@@ -1,0 +1,25 @@
+@use "../sass/abstract/universal" as *;
+@use "../sass/buttons/buttons" as *;
+@use "../sass/home/home-con.scss" as *;
+*{
+    @include universal;
+}
+.con1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con{
+    @include con;
+    ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    li{
+        list-style: none;
+    }
+}

@@ -12,7 +12,7 @@ function Main() {
     setloading(true)
     setTimeout(()=>{
       setloading(false)
-    },800)
+    },3000)
   },[])
   return (
     <>

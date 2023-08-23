@@ -11,7 +11,7 @@ export const Home = () => {
   }, [])
   return (
    <>
-     <div className='con1' data-aos="fade-right">
+     <div className='con1' data-aos="fade-rightn">
       <div className='con'>
         <ul>
           <li>Train Name:{}</li>
